@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>classList, creatElement() and appendChild()</title>
+</head>
+<body>
+	
+	<div class="js-search-result">
+	</div>
+
+	<script type="text/javascript">
+
+		var card = document.createElement('div');
+		card.classList.add('card');
+
+		var searchResults = document.querySelector('.js-search-result');
+		searchResults.appendChild(card);
+
+	</script>
+</body>
+</html>
